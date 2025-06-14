@@ -29,11 +29,12 @@
 - Install AWS CLI
 
 # Install AWS CLI V2
+```bash
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 sudo installer -pkg AWSCLIV2.pkg -target /
 which aws
 aws --version
-
+```
 - **Role**:
 -If your terraform server is in the cloud, then create a role and attach the role to your server.
 
